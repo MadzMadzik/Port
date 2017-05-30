@@ -1,4 +1,38 @@
-button {
-  background-color: #f2b8d6; }
+@import url("https://fonts.googleapis.com/css?family=Syncopate:400,700");
+body {
+  height: 100vh;
+  background: linear-gradient(-18deg, #edb9d7 45%, #9deda8 45%, #9deda8);
+  display: flex;
+  flex-direction: column;
+  margin: 0; }
+
+img {
+  width: 100px;
+  margin: 30px; }
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex: 1 0 auto;
+  margin-bottom: 30px; }
+  nav ul {
+    display: flex;
+    list-style: none; }
+    nav ul li:hover {
+      /*background-position: bottom center*/
+      color: rgba(0, 0, 0, 0.75);
+      background: #9deda8;
+      transform: rotateZ(-10deg) scale(1.2);
+      padding: 10px 0; }
+    nav ul li:hover:nth-child(2n) {
+      transform: rotateZ(10deg);
+      margin: 0; }
+    nav ul li a {
+      padding: 1rem 2rem;
+      text-decoration: none;
+      font-family: "Syncopate", Helvetica, sans-serif;
+      font-size: 1.5rem;
+      color: white; }
 
 /*# sourceMappingURL=main.css.map */
